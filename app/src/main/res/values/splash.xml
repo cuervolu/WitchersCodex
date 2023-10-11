@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Witcher.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/secondary_dark</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splashscreen_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.TheWitchersCodex</item>
+    </style>
+
+</resources>

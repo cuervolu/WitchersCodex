@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">The Witcher\'s Codex</string>
+    <string name="login">Login</string>
+    <string name="login_button_loggin">Login\n</string>
+</resources>
