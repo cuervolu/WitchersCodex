@@ -1,0 +1,275 @@
+{
+  "name": "home_stream_card_shimmer",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "gL18u6wyFXtH4gsMWKyCqe",
+    "node": "254:467",
+    "version": "4339451136",
+    "component-id": "10d1baefef6f9803dc91eecafe9bc49bc5a76ee7"
+  },
+  "default": "HomeStreamCard/Shimmer",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Frame 1"
+      },
+      {
+        "type": "group",
+        "id": "Frame 16"
+      },
+      {
+        "type": "group",
+        "id": "Frame 50"
+      },
+      {
+        "type": "group",
+        "id": "Frame 51"
+      },
+      {
+        "type": "group",
+        "id": "chip"
+      },
+      {
+        "type": "group",
+        "id": "Frame 44"
+      },
+      {
+        "type": "text",
+        "id": "#All"
+      }
+    ],
+    "modes": {
+      "HomeStreamCard/Shimmer": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "20.0",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "is-structured": "false",
+            "children": [
+              "Frame 1",
+              "Frame 16",
+              "Frame 50"
+            ]
+          },
+          {
+            "id": "Frame 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-187.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-114.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "640.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "631.0"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "item-spacing": "10.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.7647058823529411"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 16",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "8.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "8.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Frame 51"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 50",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "8.0"
+              },
+              "vertical": {
+                "attachment": "end",
+                "offset": "-14.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "main-axis-align": "end",
+            "cross-axis-align": "start",
+            "children": [
+              "chip",
+              "Frame 44"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 51",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink",
+                "min": "98.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink",
+                "min": "17.0"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "item-spacing": "8.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.7647058823529411"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "chip",
+            "padding": {
+              "left": "12.0",
+              "top": "4.0",
+              "right": "12.0",
+              "bottom": "4.0"
+            },
+            "border-radius": "90.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "#All"
+            ],
+            "item-spacing": "10.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.7647058823529411"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 44",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink",
+                "min": "203.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "15.0"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "item-spacing": "8.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.7647058823529411"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "#All",
+            "presence": "false",
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.7647058823529411"
+            },
+            "text-content": "55.2K Watching",
+            "overflow": "visible",
+            "text-align": "left",
+            "line-height": "1.2189999989100866",
+            "typeface": "Montserrat"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "HomeStreamCard/Shimmer",
+      "size": {
+        "width": 219.0,
+        "height": 280.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

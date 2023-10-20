@@ -68,8 +68,8 @@ fun PrimaryButton(
             .fillMaxWidth()
             .padding(top = 32.dp),
         colors = ButtonDefaults.buttonColors(
-            containerColor = Color(R.color.CTA),
-            contentColor = Color(R.color.secondary)
+            containerColor = Color(MaterialTheme.colorScheme.primary.value),
+            contentColor = Color(MaterialTheme.colorScheme.secondary.value)
         ),
     ) {
         Text(text = text, fontSize = 12.sp)

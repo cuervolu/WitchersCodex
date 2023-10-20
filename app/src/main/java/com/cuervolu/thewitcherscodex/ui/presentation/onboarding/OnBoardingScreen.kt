@@ -28,7 +28,7 @@ import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
-fun OnBoardingScreen(event: (OnBoardingEvent) -> Unit) {
+fun OnBoardingScreen(onEvent: (OnBoardingEvent) -> Unit) {
     Column(modifier = Modifier.fillMaxSize()) {
         val pagerState = rememberPagerState(initialPage = 0) {
             pages.size
@@ -82,7 +82,7 @@ fun OnBoardingScreen(event: (OnBoardingEvent) -> Unit) {
                     onClick = {
                         scope.launch {
                             if (pagerState.currentPage == pages.size - 1){
-                                event(OnBoardingEvent.SaveAppEntry)
+                                onEvent(OnBoardingEvent.SaveAppEntry)
                             }else{
                                 pagerState.animateScrollToPage(
                                     page = pagerState.currentPage + 1

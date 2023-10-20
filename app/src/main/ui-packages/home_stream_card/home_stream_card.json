@@ -1,0 +1,783 @@
+{
+  "name": "home_stream_card",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "gL18u6wyFXtH4gsMWKyCqe",
+    "node": "65:1751",
+    "version": "4336684785",
+    "component-id": "931e531891feef46c9ce6a56d0b7a05cc09da57a"
+  },
+  "default": "Small",
+  "documentation": "Home screen card for availables streams",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Frame 1"
+      },
+      {
+        "type": "group",
+        "id": "Frame 16"
+      },
+      {
+        "type": "group",
+        "id": "Frame 50"
+      },
+      {
+        "type": "image",
+        "id": "thumbnail"
+      },
+      {
+        "type": "group",
+        "id": "Group 1"
+      },
+      {
+        "type": "group",
+        "id": "Frame 51"
+      },
+      {
+        "type": "group",
+        "id": "Avatar"
+      },
+      {
+        "type": "image",
+        "id": "1583443075_PS439s-God-of-War-this-is-the-hilarious-comb-shaped-Easter-1200x900 1"
+      },
+      {
+        "type": "text",
+        "id": "Dr.Disrespect"
+      },
+      {
+        "type": "group",
+        "id": "chip"
+      },
+      {
+        "type": "group",
+        "id": "Frame 44"
+      },
+      {
+        "type": "text",
+        "id": "#All"
+      },
+      {
+        "type": "text",
+        "id": "Witch hunting live!"
+      },
+      {
+        "type": "group",
+        "id": "chip1"
+      },
+      {
+        "type": "text",
+        "id": "#All1"
+      }
+    ],
+    "modes": {
+      "Small": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "20.0",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "tap-handler": "$onClick",
+            "is-structured": "false",
+            "children": [
+              "Frame 1",
+              "Frame 16",
+              "Frame 50"
+            ]
+          },
+          {
+            "id": "Frame 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-187.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-114.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "640.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "631.0"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "thumbnail"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 16",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "8.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "8.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Group 1",
+              "Frame 51"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 50",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "8.0"
+              },
+              "vertical": {
+                "attachment": "end",
+                "offset": "-14.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "main-axis-align": "end",
+            "cross-axis-align": "start",
+            "children": [
+              "chip",
+              "Frame 44"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "thumbnail",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "187.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "114.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "$thumbnail",
+            "scale": "cover"
+          },
+          {
+            "id": "Group 1",
+            "border-radius": "52.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Avatar"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 51",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Dr.Disrespect"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Avatar",
+            "border-radius": "52.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "1583443075_PS439s-God-of-War-this-is-the-hilarious-comb-shaped-Easter-1200x900 1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "1583443075_PS439s-God-of-War-this-is-the-hilarious-comb-shaped-Easter-1200x900 1",
+            "border-radius": "52.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "stroke-width": "1.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "image-content": "$ivUser",
+            "scale": "cover"
+          },
+          {
+            "id": "Dr.Disrespect",
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$user",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "line-height": "1.2189999989100866",
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "chip",
+            "padding": {
+              "left": "12.0",
+              "top": "4.0",
+              "right": "12.0",
+              "bottom": "4.0"
+            },
+            "border-radius": "90.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "#All"
+            ],
+            "item-spacing": "10.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "355.5704697986577",
+              "saturation": "0.7925531914893617",
+              "value": "0.7372549019607844"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 44",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "15.0"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Witch hunting live!"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "#All",
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.9333333333333333"
+            },
+            "text-content": "$viewCount",
+            "overflow": "visible",
+            "text-align": "left",
+            "line-height": "1.2189999989100866",
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "Witch hunting live!",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "203.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$title",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "1.219000021616618",
+            "typeface": "Montserrat"
+          }
+        ]
+      },
+      "Large": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "20.0",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "tap-handler": "$onClick",
+            "is-structured": "false",
+            "children": [
+              "Frame 16",
+              "Frame 50",
+              "chip",
+              "chip1"
+            ]
+          },
+          {
+            "id": "Frame 16",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "16.0"
+              },
+              "vertical": {
+                "attachment": "end",
+                "offset": "-16.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Frame 51"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 50",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "8.0"
+              },
+              "vertical": {
+                "attachment": "end",
+                "offset": "-14.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "main-axis-align": "end",
+            "cross-axis-align": "start",
+            "children": [
+              "Frame 44"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "chip",
+            "padding": {
+              "left": "12.0",
+              "top": "4.0",
+              "right": "12.0",
+              "bottom": "4.0"
+            },
+            "border-radius": "90.0",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "end",
+                "offset": "-16.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "16.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "#All"
+            ],
+            "item-spacing": "10.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.9333333333333333"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "chip1",
+            "padding": {
+              "left": "12.0",
+              "top": "4.0",
+              "right": "12.0",
+              "bottom": "4.0"
+            },
+            "border-radius": "90.0",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "16.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "16.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "#All1"
+            ],
+            "item-spacing": "10.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "355.5704697986577",
+              "saturation": "0.7925531914893617",
+              "value": "0.7372549019607844"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 51",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Dr.Disrespect"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Dr.Disrespect",
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$user",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "line-height": "1.2189999989100866",
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "Frame 44",
+            "presence": "false",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "15.0"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Witch hunting live!"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Witch hunting live!",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "203.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$title",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "1.219000021616618",
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "#All",
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "203.33333333333337",
+              "saturation": "0.4864864864864865",
+              "value": "0.1450980392156863"
+            },
+            "text-content": "$viewCount",
+            "overflow": "visible",
+            "text-align": "left",
+            "line-height": "1.2189999989100866",
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "#All1",
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.9333333333333333"
+            },
+            "text-content": "Live",
+            "overflow": "visible",
+            "text-align": "left",
+            "line-height": "1.2189999989100866",
+            "typeface": "Montserrat"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "onClick": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": "OnClick function for stream"
+    },
+    "thumbnail": {
+      "data-type": "image",
+      "required": false,
+      "description": "Stream thumbnail url"
+    },
+    "ivUser": {
+      "data-type": "image",
+      "required": false,
+      "description": "Streamer profile image"
+    },
+    "user": {
+      "data-type": "text",
+      "required": false,
+      "description": "Name of the user"
+    },
+    "viewCount": {
+      "data-type": "text",
+      "required": false,
+      "description": "The view count of the stream"
+    },
+    "title": {
+      "data-type": "text",
+      "required": false,
+      "description": "The title of the stream"
+    }
+  },
+  "previews": [
+    {
+      "design": "Small",
+      "size": {
+        "width": 219.0,
+        "height": 280.0
+      },
+      "parameters": {
+        "thumbnail": "thumbnail.jpeg",
+        "ivUser": "1583443075_ps439s_god_of_war_this_is_the_hilarious_comb_shaped_easter_1200x900_1.jpeg",
+        "user": "Dr.Disrespect",
+        "viewCount": "55.2K Watching",
+        "title": "Witch hunting live!"
+      }
+    },
+    {
+      "design": "Large",
+      "size": {
+        "width": 398.0,
+        "height": 232.0
+      },
+      "parameters": {
+        "thumbnail": "thumbnail.jpeg",
+        "ivUser": "1583443075_ps439s_god_of_war_this_is_the_hilarious_comb_shaped_easter_1200x900_1.jpeg",
+        "user": "Dr.Disrespect",
+        "viewCount": "55.2K Watching",
+        "title": "Witch hunting live!"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

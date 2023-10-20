@@ -1,0 +1,297 @@
+{
+  "name": "user_card",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "gL18u6wyFXtH4gsMWKyCqe",
+    "node": "58:2323",
+    "version": "4336684785",
+    "component-id": "0fa05aea74102844e872ada4f56557b3a72b4f79"
+  },
+  "default": "userCard",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Frame 16"
+      },
+      {
+        "type": "image",
+        "id": "avatar"
+      },
+      {
+        "type": "group",
+        "id": "Frame 17"
+      },
+      {
+        "type": "group",
+        "id": "Frame 20"
+      },
+      {
+        "type": "text",
+        "id": "7.2 Mıllıon Followers"
+      },
+      {
+        "type": "text",
+        "id": "Dr.Disrespect"
+      },
+      {
+        "type": "group",
+        "id": "checkmark"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 1"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      }
+    ],
+    "modes": {
+      "userCard": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "20.0",
+              "top": "30.0",
+              "right": "20.0",
+              "bottom": "30.0"
+            },
+            "border-radius": "16.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "stroke-width": "1.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.9333333333333333"
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Frame 16"
+            ],
+            "item-spacing": "8.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "203.33333333333337",
+              "saturation": "0.4864864864864865",
+              "value": "0.1450980392156863"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 16",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "avatar",
+              "Frame 17"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "avatar",
+            "border-radius": "52.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "stroke-width": "1.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "image-content": "avatar.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Frame 17",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "cross-axis-align": "start",
+            "children": [
+              "Frame 20",
+              "7.2 Mıllıon Followers"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 20",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Dr.Disrespect",
+              "checkmark"
+            ],
+            "item-spacing": "5.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "7.2 Mıllıon Followers",
+            "opacity": "0.8999999761581421",
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.7137254901960784"
+            },
+            "text-content": "$followers",
+            "overflow": "visible",
+            "text-size": "10.0",
+            "letter-spacing": "0.6",
+            "line-height": "1.2189999580383302",
+            "typeface": "Montserrat",
+            "case": "upper"
+          },
+          {
+            "id": "Dr.Disrespect",
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.9333333333333333"
+            },
+            "text-content": "$username",
+            "overflow": "visible",
+            "line-height": "1.2189999989100866",
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "checkmark",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "13.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "13.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Ellipse 1",
+              "Vector"
+            ]
+          },
+          {
+            "id": "Ellipse 1",
+            "margin": {
+              "left": "3.0",
+              "top": "2.0",
+              "right": "2.0",
+              "bottom": "3.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "ellipse_1.svg"
+          },
+          {
+            "id": "Vector",
+            "margin": {
+              "left": "0.31989097595214844",
+              "top": "0.31988525390625",
+              "right": "0.3212623596191406",
+              "bottom": "0.31988525390625"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "followers": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "username": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "userCard",
+      "size": {
+        "width": 227.0,
+        "height": 96.0
+      },
+      "parameters": {
+        "followers": "7.2 Mıllıon Followers",
+        "username": "Dr.Disrespect"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

@@ -1,0 +1,6 @@
+{
+  "target": "HomeStreamCard",
+  "package": "com.cuervolu.thewitcherscodex.ui.presentation.common",
+  "generateImplementation": true,
+  "generatePreviews": true
+}
