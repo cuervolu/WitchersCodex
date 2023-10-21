@@ -117,12 +117,13 @@ dependencies {
 
     //Coil
     implementation("io.coil-kt:coil-compose:2.4.0")
+    implementation("io.coil-kt:coil-svg:2.2.2")
 
     //Datastore
     implementation("androidx.datastore:datastore-preferences:1.0.0")
 
     //Compose Foundation
-    implementation("androidx.compose.foundation:foundation:1.5.3")
+    implementation("androidx.compose.foundation:foundation:1.5.4")
 
     //Accompanist
     implementation("com.google.accompanist:accompanist-systemuicontroller:0.33.2-alpha")

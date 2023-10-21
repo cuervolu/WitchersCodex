@@ -4,6 +4,7 @@ import androidx.navigation.NamedNavArgument
 
 sealed class Route(val route: String, val arguments: List<NamedNavArgument> = emptyList()) {
     object OnBoardingScreen : Route(route = "onBoardingScreen")
+    object LoginScreen : Route(route = "loginScreen")
     object HomeScreen : Route(route = "homeScreen")
     object CharacterScreen : Route(route = "characterScreen")
     object CharacterDetailScreen : Route(route = "characterDetailScreen")

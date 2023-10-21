@@ -6,6 +6,8 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navigation
+import com.cuervolu.thewitcherscodex.ui.presentation.auth.login.LoginScreen
+import com.cuervolu.thewitcherscodex.ui.presentation.auth.login.LoginViewModel
 import com.cuervolu.thewitcherscodex.ui.presentation.navigator.AppNavigator
 import com.cuervolu.thewitcherscodex.ui.presentation.onboarding.OnBoardingScreen
 import com.cuervolu.thewitcherscodex.ui.presentation.onboarding.OnBoardingViewModel
@@ -23,7 +25,15 @@ fun NavGraph(
         ) {
             composable(route = Route.OnBoardingScreen.route) {
                 val viewModel: OnBoardingViewModel = hiltViewModel()
-                OnBoardingScreen(onEvent = viewModel::onEvent)
+                OnBoardingScreen { event ->
+                    viewModel.onEvent(event, navController)
+                }
+            }
+            composable(route = Route.LoginScreen.route) {
+                val viewModel: LoginViewModel = hiltViewModel()
+                LoginScreen { event ->
+                    viewModel.onEvent(event, navController)
+                }
             }
         }
 

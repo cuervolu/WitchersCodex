@@ -4,14 +4,18 @@ import android.app.Application
 import com.cuervolu.thewitcherscodex.BuildConfig
 import com.cuervolu.thewitcherscodex.data.manager.LocalUserManagerImpl
 import com.cuervolu.thewitcherscodex.data.remote.TwitchApi
+import com.cuervolu.thewitcherscodex.data.repository.FirebaseAuthRepositoryImpl
 import com.cuervolu.thewitcherscodex.data.repository.FirestoreRepositoryImpl
 import com.cuervolu.thewitcherscodex.data.repository.StreamsRepositoryImpl
 import com.cuervolu.thewitcherscodex.domain.manager.LocalUserManager
+import com.cuervolu.thewitcherscodex.domain.repository.FirebaseAuthRepository
 import com.cuervolu.thewitcherscodex.domain.repository.FirestoreRepository
 import com.cuervolu.thewitcherscodex.domain.repository.TwitchRepository
 import com.cuervolu.thewitcherscodex.domain.usecases.app_entry.AppEntryUseCases
 import com.cuervolu.thewitcherscodex.domain.usecases.app_entry.ReadAppEntry
 import com.cuervolu.thewitcherscodex.domain.usecases.app_entry.SaveAppEntry
+import com.cuervolu.thewitcherscodex.domain.usecases.auth.AuthUseCases
+import com.cuervolu.thewitcherscodex.domain.usecases.auth.Login
 import com.cuervolu.thewitcherscodex.domain.usecases.characters.CharacterUseCases
 import com.cuervolu.thewitcherscodex.domain.usecases.characters.GetCharacters
 import com.cuervolu.thewitcherscodex.domain.usecases.streams.GetStreams
@@ -47,8 +51,21 @@ object AppModule {
 
     @Provides
     @Singleton
+    fun providesAuthUseCases(firebaseAuthRepository: FirebaseAuthRepository) = AuthUseCases(
+        login = Login(firebaseAuthRepository),
+//        register = Register(firebaseAuthRepository),
+//        logout = Logout(firebaseAuthRepository)
+    )
+
+    @Provides
+    @Singleton
     fun providesFirestoreRepository(): FirestoreRepository =
         FirestoreRepositoryImpl()
+
+    @Provides
+    @Singleton
+    fun providesFirebaseAuthRepository(): FirebaseAuthRepository =
+        FirebaseAuthRepositoryImpl()
 
     @Provides
     @Singleton
